@@ -1,0 +1,226 @@
+#carouselExampleDark{
+    position: relative;
+}
+.carousel-inner img{
+    max-height: 100vh;
+    height: 50vh;
+    width: 100%;
+}
+.carousel-item::before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 0.5;
+    opacity: 0.5;
+}
+.carousel-content-mobile{
+    color: #fff;
+    display: none;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
+    z-index: 1;
+}
+.mh-products-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.navigation-bar{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    
+    text-decoration: none;
+    transition: color .15s ease-in-out,black .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #f1f1f1;
+}
+.dropdown{
+    background-color: rgb(255, 0, 0);
+    border-radius: 3px;
+    color: #fff;
+}
+.social{
+    width: 100%;
+    text-align: center;
+}
+.social i{
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+.text-reset i:hover{
+    color: rgb(255, 0, 0);
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 133, 0.356);
+}
+/* com prof */
+.company-profile{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 18rem;
+    box-shadow: 0px 0px 5px 2px black;
+    background-color: #ebebeb;
+}
+.card-body .btn{
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0202;
+}
+.card-body .btn:hover{
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.company-profile .card-img-top{
+    height: 180px;
+    width: 180px;
+    display: block;
+    margin:  10px auto 10px auto;
+    border-radius: 50%;
+}
+.card-title{
+    color: #000000;
+}
+.company-profile .card-body{
+    width: 100%;
+    /* display: flex; */
+    background-color: #ffffff;
+    
+}
+
+/* product section */
+.product-section{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    display: flex;
+    gap: 0px 20px;
+    /* justify-content: space-between; */
+}
+.product-section .card-img-top{
+    height: 200px;
+}
+
+.product-section>.card:hover .card-body{
+    background-color: #ff0000;
+    /* background-color: red; */
+}
+.product-section>.card:hover .card-title{
+    color: #fff;
+}
+.product-section .card-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebebeb;
+    
+}
+
+.product-section .card-title{
+    width: fit-content;
+    text-align: center;
+    color: #ff0000;
+    cursor: default;
+}
+.product-btn{
+    background-color: #00438f;
+    border-color: #00438f;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.product-btn:hover{
+    color: #fff;
+    background-color: #003f86;
+    border-color: #003f86;
+}
+
+@media screen and (max-width:480px) {
+    .navigation-bar{
+        display: none;
+    }
+    .navbar-main{
+        display: block;
+    }
+    .carousel-inner img{
+        max-height: 100vh;
+        height: 60vh;
+    }
+    .carousel-content-mobile{
+        display: flex;
+        height: 60vh;
+    }
+    .company-profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
+    .card{
+        width: 17rem;
+        margin: 15px 0px;
+    }
+    .product-section{
+        height: fit-content;
+        width: fit-content;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .product-section .card{
+        font-size: small;
+    }
+    .product-section .mx-4 {
+        margin-right: 0rem!important;
+        margin-left: 0rem!important;
+    }
+    .product-section .mx-5 {
+        margin-right: 0rem!important;
+        margin-left: 0rem!important;
+    }
+    
+}
