@@ -1,0 +1,20 @@
+.intro-bg{
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.intro-bg::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: red;
+    background: url('/static/images/about-us.jpg');
+    height: 100% 100%;
+}
+.company-intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

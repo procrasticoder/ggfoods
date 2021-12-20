@@ -1,7 +1,7 @@
 document.getElementsByTagName("header")[0].innerHTML=`
 <nav class="navbar-main navbar navbar-expand-lg navbar-light bg-light px-4 mb-0">
 <div class="container-fluid">
-  <a href="index.php"><img src="static/images/g-g-foods-logo.jpg" alt="" style="height:70px;"></a>
+  <a href="index.html"><img src="static/images/g-g-foods-logo.jpg" alt="" style="height:70px;"></a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -9,33 +9,35 @@ document.getElementsByTagName("header")[0].innerHTML=`
     
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       <li class="nav-item mx-3">
-        <a class="nav-link" href="index.php">Home</a>
+        <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item mx-3">
-        <a class="nav-link" href="about-us.php">About Us</a>
+        <a class="nav-link" href="about.html">About Us</a>
       </li>
       <li class="nav-item dropdown mx-3">
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="background-color: red; border-radius: 3px; color: #fff;">Products</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Dry Fruit Powder</a></li>
+          <li><a class="dropdown-item" href="products.html">Dry Fruit Powder</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Fruit Powder</a></li>
+          <li><a class="dropdown-item" href="products.html">Fruit Powder</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Wheat Grass Powder</a></li>
+          <li><a class="dropdown-item" href="products.html">Wheat Grass Powder</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Organic Tea And Nutritional Powder</a></li>
+          <li><a class="dropdown-item" href="products.html">Herbal Tea</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Essential Oils</a></li>
+          <li><a class="dropdown-item" href="products.html">Nutritional Powder</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Natural Oil</a></li>
+          <li><a class="dropdown-item" href="products.html">Essential Oils</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Walnut Oil</a></li>
+          <li><a class="dropdown-item" href="products.html">Natural Oil</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="products-3.php">All Products</a></li>
+          <li><a class="dropdown-item" href="products.html">Walnut Oil</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="products.html">All Products</a></li>
         </ul>
       </li>
       <li class="nav-item mx-3">
-        <a class="nav-link" href="contact.php">Contact Us</a>
+        <a class="nav-link" href="#">Contact Us</a>
       </li>
     </ul>
   </div>
@@ -48,10 +50,10 @@ document.getElementsByTagName('footer')[0].innerHTML=`
     <h3>
         Quick Links
     </h3>
-    <a href="index.php">Home</a>
-    <a href="about-us.php">About Us</a>
-    <a href="products-1.php">Products</a>
-    <a href="contact.php">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="products.html">Products</a>
+    <a href="#">Contact</a>
     <div class="footerline"></div>
 </div>
 
