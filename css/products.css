@@ -15,7 +15,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background: url('/static/images/products-bg.jpg');
+    background: url('../static/images/products-bg.jpg');
     background-size: 120% 120%;
     opacity: 1;
     z-index: -1;

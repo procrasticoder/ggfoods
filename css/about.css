@@ -11,7 +11,7 @@
     height: 100%;
     width: 100%;
     background: red;
-    background: url('/static/images/about-us.jpg');
+    background: url('../static/images/about-us.jpg');
     height: 100% 100%;
 }
 .company-intro{
