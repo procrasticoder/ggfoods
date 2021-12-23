@@ -37,7 +37,7 @@ document.getElementsByTagName("header")[0].innerHTML=`
         </ul>
       </li>
       <li class="nav-item mx-3">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="contact.html">Contact Us</a>
       </li>
     </ul>
   </div>
@@ -53,7 +53,7 @@ document.getElementsByTagName('footer')[0].innerHTML=`
     <a href="index.html">Home</a>
     <a href="about.html">About Us</a>
     <a href="products.html">Products</a>
-    <a href="#">Contact</a>
+    <a href="contact.html">Contact</a>
     <div class="footerline"></div>
 </div>
 
@@ -67,7 +67,9 @@ document.getElementsByTagName('footer')[0].innerHTML=`
           
           <a href="#">Wheatgrass Powder</a>
          
-          <a href="#">Organic Tea And Nutritional Powder</a>
+          <a href="#">Herbal Tea</a>
+
+          <a href="#">Nutritional Powder</a>
           
           <a href="#">Essential Oils</a>
           
@@ -85,16 +87,18 @@ document.getElementsByTagName('footer')[0].innerHTML=`
     </h3>
     <div class="q_contact_link">
         <i class="fa fa-home"></i>
-        <p>NH- 76, Village Vana Via Kheroda, Tehsil Vallabhnagar, Udaipur-313602, Rajasthan, India</p>
+        <p>N.h. 76, Village- Vana, Via- Kheroda, Dist. Udaipur (raj.), Kheroda, Udaipur, Rajasthan - 313602, India</p>
     </div>
 
     <div class="q_contact_link">
         <i class="fa fa-phone"></i>
-        <p>+91-9999999999</p>
+        <p>+91-9829232723<br>+91-9829611823</p>
     </div>
     <div class="q_contact_link">
         <i class="fa fa-envelope"></i>
-        <a href="https://www.gmail.com" style="text-decoration: underline; cursor: pointer;">dummymail.com</a>
+        <p><a href="https://www.gmail.com" style="text-decoration: underline; cursor: pointer;">ggfoodproduct@yahoo.com</a><br>
+        <a href="https://www.gmail.com" style="text-decoration: underline; cursor: pointer;">ggfoodproduct@gmail.com</a></p>
+        
     </div>
     <div class="footerline"></div>
 

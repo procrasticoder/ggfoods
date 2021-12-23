@@ -1,3 +1,6 @@
+*{
+    cursor:default;
+}
 a{
     color: inherit;
     text-decoration: none;
@@ -22,10 +25,13 @@ header{
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: rgba(0, 0, 0, 0.9);
+
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
+    cursor: pointer;
+
 }
 
 /* footer */
@@ -87,7 +93,7 @@ footer{
 .q_contact_link{
     display: flex;
 }
-.q_contact_link>a:hover{
+.q_contact_link a:hover{
     color: #ff0000;
 
 }
