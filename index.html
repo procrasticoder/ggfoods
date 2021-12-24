@@ -84,21 +84,21 @@
           <li class="nav-item dropdown px-3">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Products</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="products.html">Dry Fruit Powder</a></li>
+              <li><a class="dropdown-item" href="products.html#sl1">Dry Fruit Powder</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="products.html">Fruit Powder</a></li>
+              <li><a class="dropdown-item" href="products.html#sl2">Fruit Powder</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="products.html">Wheat Grass Powder</a></li>
+              <li><a class="dropdown-item" href="products.html#sl3">Wheat Grass Powder</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="products.html">Herbal Tea</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="products.html">Nutritional Powder</a></li>
+              <li><a class="dropdown-item" href="products.html#sl4">Nutritional Powder</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="products.html">Essential Oils</a></li>
+              <li><a class="dropdown-item" href="products.html#sl5">Essential Oils</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="products.html">Natural Oil</a></li>
+              <li><a class="dropdown-item" href="products.html#sl6">Natural Oil</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="products.html">Walnut Oil</a></li>
+              <li><a class="dropdown-item" href="products.html#sl7">Walnut Oil</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="products.html">All Products</a></li>
             </ul>
@@ -147,19 +147,19 @@
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="1000">
           <div class="multiple-image">
-            <div class="card" style="width: 16rem;">
+            <div class="card" id="DDP-sl1" style="width: 16rem;" onclick="navigateTo('sl1')">
               <img src="static/images/dry-dates-powder.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Dry Dates Powder</h5>
               </div>
             </div>
-            <div class="card" style="width: 16rem;">
+            <div class="card" id="FP-sl2" style="width: 16rem;" onclick="navigateTo('sl2')">
               <img src="static/images/fig-powder.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Fig Powder</h5>
               </div>
             </div>
-            <div class="card" style="width: 16rem;">
+            <div class="card" id="FSO-sl6" style="width: 16rem;" onclick="navigateTo('sl6')">
               <img src="static/images/flex-seed-oil.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Flex Seed Oil</h5>
@@ -169,19 +169,19 @@
         </div>
         <div class="carousel-item" data-bs-interval="10000">
           <div class="multiple-image">
-            <div class="card" style="width: 16rem;">
+            <div class="card" id="AP-sl1" style="width: 16rem;" onclick="navigateTo('sl1')">
               <img src="static/images/blanched-almond-powder.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Almond Powder</h5>
               </div>
             </div>
-            <div class="card" style="width: 16rem;">
+            <div class="card" id="CP-sl3" style="width: 16rem;" onclick="navigateTo('sl3')">
               <img src="static/images/celery-leaves-powder.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Celery Powder</h5>
               </div>
             </div>
-            <div class="card" style="width: 16rem;">
+            <div class="card" id="FSP-sl4" style="width: 16rem;" onclick="navigateTo('sl4')">
               <img src="static/images/flex-seed-powderjpg.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Flex Seed Powder</h5>
@@ -225,63 +225,63 @@
     <h1 class="mx-auto pt-3" style="color: #ff0000; text-align:center;">Discover Our Range</h1>
 
     <div class="product-section mx-auto pt-2 px-5">
-        <div class="card" style="width: 16rem;" onclick="navigate(1,'aromatic-solvent')">
+        <div class="card" style="width: 16rem;" onclick="navigateTo('sl1')">
         <img src="static/images/dry-fruit-powder.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Dry Fruits Powder</h5>
         </div>
         </div>
 
-        <div class="card" style="width: 16rem;" onclick="navigate(2,'liquid-paraffin')">
+        <div class="card" style="width: 16rem;" onclick="navigateTo('sl2')">
         <img src="static/images/fruit-powder" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Fruit Powder</h5>
         </div>
         </div>
 
-        <div class="card" style="width: 16rem;" onclick="navigate(1,'light-diesel-oil')">
+        <div class="card" style="width: 16rem;" onclick="navigateTo('sl3')">
         <img src="static/images/wheat-grass-powder.png" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Wheat Grass Powder</h5>
         </div>
         </div>
 
-        <div class="card" style="width: 16rem;" onclick="navigate(1,'light-diesel-oil')">
+        <div class="card" style="width: 16rem;" onclick="navigateTo('#')">
           <img src="static/images/organic-tea-and-nutritional-powder.jpg" class="card-img-top" alt="...">
           <div class="card-body">
               <h5 class="card-title">Herbal Tea</h5>
           </div>
           </div>
     
-      <div class="card" style="width: 16rem;" onclick="navigate(1,'light-diesel-oil')">
+      <div class="card" style="width: 16rem;" onclick="navigateTo('sl4')">
         <img src="static/images/organic-tea-and-nutritional-powder.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Nutritional Powder</h5>
         </div>
         </div>
 
-        <div class="card" style="width: 16rem;" onclick="navigate(1,'heavy-viscous-furnace-oil')">
+        <div class="card" style="width: 16rem;" onclick="navigateTo('sl5')">
         <img src="static/images/essential-oils.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Essential Oils</h5>
         </div>
         </div>
 
-        <div class="card" style="width: 16rem;" onclick="navigate(3,'mineral-turpentine-oil')">
+        <div class="card" style="width: 16rem;" onclick="navigateTo('sl6')">
         <img src="static/images/natural-oils.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Natural Oil</h5>
         </div>
         </div>
 
-        <div class="card" style="width: 16rem;" onclick="navigate(1,'furnace-oil')">
+        <div class="card" style="width: 16rem;" onclick="navigateTo('sl7')">
         <img src="static/images/walnut-oil.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Walnut Oil</h5>
         </div>
         </div>
     </div> 
-    <a href="products-3.php" class="btn btn-primary product-btn my-4">All Products</a>
+    <a href="products.html" class="btn btn-primary product-btn my-4">All Products</a>
 </div>
 <!-- profile section ends here -->
     
@@ -402,5 +402,16 @@
     }
   </script>
     <!-- navigation bar script end -->
+
+    <!-- internal navigation -->
+    <script>
+      function navigateTo(id){
+        a=document.createElement('a')
+        a.setAttribute('href','products.html#'+id)
+        a.click()
+        // alert(id)
+      }
+    </script> 
+    <!-- internal navigation -->
 </body>
 </html>
