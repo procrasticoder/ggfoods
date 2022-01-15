@@ -7,6 +7,15 @@
     z-index: 2;
     box-shadow: 0px 0px 2px 2px black;
 }
+.dropdown-menu{
+    display: none;
+}
+.product-dropdown:hover ~ .dropdown-menu{
+    display: block;
+}
+.dropdown-menu:hover{
+    display: block;
+}
 .sliding-header .carousel-inner img{
     max-height: 100vh;
     height: 50vh;

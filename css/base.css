@@ -8,16 +8,57 @@ a{
 a:hover{
     color: inherit;
 }
+.top-header{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background:linear-gradient(45deg,transparent 20%, red 20%);
+    float: right;
+}
+.carousel-detail-main{
+    position: absolute;
+    right: 0px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.carousel-detail-division{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-detail-division p {
+    margin-top: 0px;
+    margin-bottom: 0rem;
+}
 header{
     position: sticky;
     top: 0;
     left: 0;
     z-index: 5;
 }
+.dropdown-menu{
+    display: none;
+}
+.product-dropdown:hover ~ .dropdown-menu{
+    display: block;
+}
+.dropdown-menu:hover{
+    display: block;
+}
 .navbar-main{
     width: 100%;
     z-index: 2;
     box-shadow: 0px 0px 2px 2px black;
+    flex-direction: column;
+}
+.vLine{
+    border-left: 2px solid white;
+
+
 }
 .nav-link a{
     color: black;

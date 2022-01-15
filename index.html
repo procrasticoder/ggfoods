@@ -82,7 +82,7 @@
             <a class="nav-link" href="about.html">About Us</a>
           </li>
           <li class="nav-item dropdown px-3">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Products</a>
+            <a class="nav-link dropdown-toggle product-dropdown" href="#" role="button" aria-expanded="false">Products</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="products.html#sl1">Dry Fruit Powder</a></li>
               <li><hr class="dropdown-divider"></li>
@@ -410,6 +410,10 @@
         a.setAttribute('href','products.html#'+id)
         a.click()
         // alert(id)
+      }
+
+      function productButton(){
+        document.getElementById('product-dropdown').click();
       }
     </script> 
     <!-- internal navigation -->

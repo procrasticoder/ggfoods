@@ -1,6 +1,28 @@
 document.getElementsByTagName("header")[0].innerHTML=`
-<nav class="navbar-main navbar navbar-expand-lg navbar-light bg-light px-4 mb-0">
-<div class="container-fluid">
+
+<nav class="navbar-main navbar navbar-expand-lg navbar-light bg-light mb-0">
+<div class="top-header mb-2">
+<div class="carousel-detail-main">
+          <div class="carousel-detail-division">
+            <i class="fa fa-envelope px-3" style="color: #fff;"></i>
+            <a href="" style="text-decoration: none; color: #fff;">ggfoodproduct@gmail.com</a>
+          </div>
+          <div class="carousel-detail-division vLine">
+            <i class="fa fa-phone px-3" style="color: #fff;"></i>
+            <p style="color: #fff;">Call Us now on <b>+91-9829232723</b></p>
+          </div>
+          <div class="carousel-detail-division vLine">
+            <a href="">
+              <i class="fa fa-facebook px-3" style="color: #fff;"></i>
+            </a><a href="">
+              <i class="fa fa-instagram px-3" style="color: #fff;"></i>
+            </a><a href="">
+              <i class="fa fa-youtube px-3" style="color: #fff;"></i>
+            </a>
+          </div>
+        </div>
+</div>
+<div class="container-fluid px-4">
   <a href="index.html"><img src="static/images/g-g-foods-logo.jpg" alt="" style="height:70px;"></a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -15,7 +37,7 @@ document.getElementsByTagName("header")[0].innerHTML=`
         <a class="nav-link" href="about.html">About Us</a>
       </li>
       <li class="nav-item dropdown mx-3">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="background-color: red; border-radius: 3px; color: #fff;">Products</a>
+        <a class="nav-link dropdown-toggle product-dropdown" href="#" role="button" aria-expanded="false" style="background-color: red; border-radius: 3px; color: #fff;">Products</a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="products.html#sl1">Dry Fruit Powder</a></li>
           <li><hr class="dropdown-divider"></li>
@@ -96,7 +118,7 @@ document.getElementsByTagName('footer')[0].innerHTML=`
     </div>
     <div class="q_contact_link">
         <i class="fa fa-envelope"></i>
-        <p><a href="https://www.gmail.com" style="text-decoration: underline; cursor: pointer;">ggfoodproduct@yahoo.com</a><br>
+        <p>
         <a href="https://www.gmail.com" style="text-decoration: underline; cursor: pointer;">ggfoodproduct@gmail.com</a></p>
         
     </div>
@@ -131,7 +153,7 @@ document.getElementsByTagName('footer')[0].innerHTML=`
 </div>
 <div class="footer_two">
 <div class="footer_content">
-    All Rights Reserved. Labdhi Petrochem (Terms of Use)<br>
+    All Rights Reserved. GG Foods (Terms of Use)<br>
                     <a href="https://adjointindia.com/" style="color: inherit; cursor: pointer;">Powered by AdJoint India</a>
 </div>
 <div class="footer_logo">
