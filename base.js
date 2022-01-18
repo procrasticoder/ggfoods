@@ -1,5 +1,5 @@
 document.getElementsByTagName("header")[0].innerHTML=`
-<div class='container-fluid px-0 mx-0 pl-5' style="display:grid; grid-template-columns: 1fr 10fr;">
+<div class='container-fluid px-0 mx-0 pl-5' style="display:grid; grid-template-columns: 1fr 7fr;">
 <div class='logo px-2' style="display:flex; justify-content:center; align-items:center; background-color:#f8f9fa;">
 <a href="index.html"><img src="static/images/g-g-foods-logo.jpg" alt="" style="height:90%; width:90%;"></a>
 </div>
