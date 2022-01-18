@@ -1,7 +1,10 @@
 document.getElementsByTagName("header")[0].innerHTML=`
-
+<div class='container-fluid px-0 mx-0 pl-5' style="display:grid; grid-template-columns: 1fr 10fr;">
+<div class='logo px-2' style="display:flex; justify-content:center; align-items:center; background-color:#f8f9fa;">
+<a href="index.html"><img src="static/images/g-g-foods-logo.jpg" alt="" style="height:90%; width:90%;"></a>
+</div>
 <nav class="navbar-main navbar navbar-expand-lg navbar-light bg-light mb-0">
-<div class="top-header mb-2">
+<div class="top-header mb-0">
 <div class="carousel-detail-main">
           <div class="carousel-detail-division">
             <i class="fa fa-envelope px-3" style="color: #fff;"></i>
@@ -22,8 +25,8 @@ document.getElementsByTagName("header")[0].innerHTML=`
           </div>
         </div>
 </div>
-<div class="container-fluid px-4">
-  <a href="index.html"><img src="static/images/g-g-foods-logo.jpg" alt="" style="height:70px;"></a>
+<div class="container-fluid px-4 py-2">
+
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -65,6 +68,8 @@ document.getElementsByTagName("header")[0].innerHTML=`
   </div>
 </div>
 </nav>
+</div>
+
 `
 document.getElementsByTagName('footer')[0].innerHTML=`
 <div class="footer_one">

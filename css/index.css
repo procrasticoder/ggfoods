@@ -2,10 +2,9 @@
     position: relative;
 }
 .navbar-main{
-    display: none;
+    display: block;
     width: 100%;
     z-index: 2;
-    box-shadow: 0px 0px 2px 2px black;
 }
 .dropdown-menu{
     display: none;
@@ -16,9 +15,16 @@
 .dropdown-menu:hover{
     display: block;
 }
+
+.mh-image-container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    max-height: 80vh;
+    /* height: 40vw; */
+}
 .sliding-header .carousel-inner img{
-    max-height: 100vh;
-    height: 50vh;
+    max-height: 80vh;
+    height: 40vh;
     width: 100%;
 }
 .sliding-header .carousel-item::before{
