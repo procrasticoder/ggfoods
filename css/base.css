@@ -5,6 +5,20 @@ header{
     box-shadow: 0px 0px 2px 2px black;
 
 }
+.header-container
+{
+    display:grid; 
+    grid-template-columns: 1fr 7fr;
+}
+.logo{
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    background-color:#f8f9fa;
+}
+.navbar-brand{
+    display: none;
+}
 a{
     color: inherit;
     text-decoration: none;
@@ -184,8 +198,28 @@ footer{
 /* footer */
 
 @media screen and (max-width:480px) {
+    .header-container
+{
+    display:grid; 
+    grid-template-columns: 1fr;
+}
+.logo{
+    display:none; 
+    justify-content:center; 
+    align-items:center; 
+    background-color:#f8f9fa;
+}
+.top-header{
+    display: none;
+}
+.navbar-brand{
+    display: block;
+    float: left;
+    top: 0;
+    left: 0;
+}
     .navbar-main img{
-        width: 12rem;
+        /* width: 12rem; */
         object-fit: contain;
     }
     .navbar-toggler {

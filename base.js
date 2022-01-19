@@ -1,6 +1,6 @@
 document.getElementsByTagName("header")[0].innerHTML=`
-<div class='container-fluid px-0 mx-0 pl-5' style="display:grid; grid-template-columns: 1fr 7fr;">
-<div class='logo px-2' style="display:flex; justify-content:center; align-items:center; background-color:#f8f9fa;">
+<div class='container-fluid header-container px-0 mx-0 pl-5' style="">
+<div class='logo px-2' style="">
 <a href="index.html"><img src="static/images/g-g-foods-logo.jpg" alt="" style="height:90%; width:90%;"></a>
 </div>
 <nav class="navbar-main navbar navbar-expand-lg navbar-light bg-light mb-0">
@@ -26,7 +26,10 @@ document.getElementsByTagName("header")[0].innerHTML=`
         </div>
 </div>
 <div class="container-fluid px-4 py-2">
-
+  <a class="navbar-brand" href="index.html">
+      <img src="static/images/g-g-foods-logo.jpg" alt="" width="35" height="35" class="d-inline-block align-text-top">
+      G G FOODS
+    </a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
