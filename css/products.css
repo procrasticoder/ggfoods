@@ -119,3 +119,25 @@ width: 100%;
     border-color: rgb(226, 0, 0);
     color: #fff;
 }
+@media screen and (max-width:480px) {
+    .modal-body{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;   
+    }
+    .product-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: fit-content;
+        margin: auto;
+        gap: 20px 20px;
+    }
+    .product-item .card{
+        width: 10rem;
+        margin: auto;
+    }
+    .product-item .card-img-top{
+        height: 150px;
+    }
+}

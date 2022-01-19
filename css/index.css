@@ -107,6 +107,9 @@
     background-color: rgba(0, 0, 133, 0.356);
 }
 /* com prof */
+.about-company{
+    display: flex;
+}
 .company-profile{
     height: fit-content;
     width: 100%;
@@ -125,6 +128,10 @@
     opacity: 0.9;
     filter: blur(2px);
 }
+.youtube-video{
+    width:600px; 
+    height:350px;
+}
 .company-profile .carousel-inner{
     width: 80%;
     margin: auto;
@@ -141,6 +148,9 @@
     margin: auto;
     height: 15rem;
     object-fit: contain;
+}
+.multiple-image .card{
+    width: 16rem;
 }
 .multiple-image .card-body{
     background-color: rgb(20, 20, 20);
@@ -256,24 +266,48 @@
 /* company info end */
 
 @media screen and (max-width:480px) {
+    .mh-image-container{
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        max-height: 60vh;
+        /* height: 40vw; */
+    }
+    .sliding-header .carousel-inner img{
+        max-height: 60vh;
+        height: 30vh;
+        width: 100%;
+    }
+
     .navigation-bar{
         display: none;
     }
     .navbar-main{
         display: block;
     }
-    .carousel-inner img{
-        max-height: 100vh;
-        height: 60vh;
+    .multiple-image .card{
+        width: 8rem;
+    }
+    .card-img-top{
+        max-height: 50vh;
+        height: 50vh;
     }
     .carousel-content-mobile{
         display: flex;
         height: 60vh;
     }
+    .about-company{
+        display: flex;
+        flex-direction: column;
+    }
     .company-profile{
         display: flex;
         flex-direction: column;
         align-items: center;        
+    }
+    .youtube-video{
+        width:90vw; 
+        height:350px;
+        margin: auto;
     }
     .card{
         width: 17rem;
@@ -301,4 +335,10 @@
         margin-left: 0rem!important;
     }
     
+    .company-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;;
+        justify-content: center;
+        align-items: center;
+    }
 }
