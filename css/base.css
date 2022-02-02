@@ -67,6 +67,9 @@ header{
 .dropdown-menu:hover{
     display: block;
 }
+.product-dropdown-mobile-li{
+    display: none;
+}
 .navbar-main{
     width: 100%;
     z-index: 2;
@@ -230,6 +233,12 @@ footer{
         border: 1px solid transparent;
         border-radius: 0.25rem;
         transition: box-shadow .15s ease-in-out;
+    }
+    .product-dropdown-li{
+        display: none;
+    }
+    .product-dropdown-mobile-li{
+        display: block;
     }
     .footer_one{
         display: grid;

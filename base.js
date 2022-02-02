@@ -42,8 +42,34 @@ document.getElementsByTagName("header")[0].innerHTML=`
       <li class="nav-item mx-3">
         <a class="nav-link" href="about.html">About Us</a>
       </li>
-      <li class="nav-item dropdown mx-3">
-        <a class="nav-link dropdown-toggle product-dropdown" href="#" role="button" aria-expanded="false" style="background-color: red; border-radius: 3px; color: #fff;">Products</a>
+      <li class="nav-item dropdown mx-3 product-dropdown-li">
+          <a class="nav-link dropdown-toggle product-dropdown" href="#" id="navbarDropdown" role="button" aria-expanded="false" style="background-color: red; border-radius: 3px; color: #fff;">
+            Products
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="products.html#sl1">Dry Fruit Powder</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="products.html#sl2">Fruit Powder</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="products.html#sl3">Wheat Grass Powder</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="products.html">Herbal Tea</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="products.html#sl4">Nutritional Powder</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="products.html#sl5">Essential Oils</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="products.html#sl6">Natural Oil</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="products.html#sl7">Walnut Oil</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="products.html">All Products</a></li>
+        </ul>
+      </li>
+        <li class="nav-item dropdown mx-3 product-dropdown-mobile-li">
+          <a class="nav-link dropdown-toggle product-dropdown-mobile" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: red; border-radius: 3px; color: #fff;">
+            Products
+          </a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="products.html#sl1">Dry Fruit Powder</a></li>
           <li><hr class="dropdown-divider"></li>
