@@ -53,15 +53,11 @@ document.getElementsByTagName("header")[0].innerHTML=`
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="products.html#sl3">Wheat Grass Powder</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="products.html">Herbal Tea</a></li>
+          <li><a class="dropdown-item" href="products.html#sl7">Celery Leaves Powder</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="products.html#sl4">Nutritional Powder</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="products.html#sl5">Essential Oils</a></li>
+          <li><a class="dropdown-item" href="products.html#sl4">Flax Seeds Powder</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="products.html#sl6">Natural Oil</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="products.html#sl7">Walnut Oil</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="products.html">All Products</a></li>
         </ul>
@@ -77,15 +73,11 @@ document.getElementsByTagName("header")[0].innerHTML=`
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="products.html#sl3">Wheat Grass Powder</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="products.html">Herbal Tea</a></li>
+          <li><a class="dropdown-item" href="products.html#sl7">Celery Leaves Powder</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="products.html#sl4">Nutritional Powder</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="products.html#sl5">Essential Oils</a></li>
+          <li><a class="dropdown-item" href="products.html#sl4">Flax Seeds Powder</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="products.html#sl6">Natural Oil</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="products.html#sl7">Walnut Oil</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="products.html">All Products</a></li>
         </ul>
@@ -123,15 +115,12 @@ document.getElementsByTagName('footer')[0].innerHTML=`
           
           <a href="products.html#sl3">Wheatgrass Powder</a>
          
-          <a href="#">Herbal Tea</a>
+          <a href="products.html#sl7">Celery Leaves Powder</a>
 
-          <a href="products.html#sl4">Nutritional Powder</a>
-          
-          <a href="products.html#sl5">Essential Oils</a>
-          
+          <a href="products.html#sl4">Flax Seeds Powder</a>
+           
           <a href="products.html#sl6">Natural Oil</a>
           
-          <a href="products.html#sl7">Walnut Oil</a>
 
     
     <div class="footerline"></div>
